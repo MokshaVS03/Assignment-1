@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg mb-2 mt-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="logo.png" width="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item lead ">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item lead">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item lead">
+                            <a class="nav-link" href="#">Store</a>
+                        </li>
+                        <li class="nav-item lead">
+                            <a class="nav-link" href="#">Details</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control lead me-2" type="search" placeholder="Search movieee" aria-label="Search">
+                        <button class="btn btn-outline-success lead" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="height: 55rem;">
+                <div class="carousel-item active">
+                    <img src="hp1.jpg" style="height: 55rem;" class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="hp2.jpg" style="height: 55rem;" class="d-block img-fluid w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="hp3.jpg" style="height: 55rem;" class="d-block img-fluid w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p class="lead mt-4">
+            Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).
+        </p>
+        <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed lead" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Harry Potter and the Philosopher's Stone
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Harry Potter, an eleven-year-old orphan, discovers that he is a wizard
+                        and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of
+                        magic, he finds trouble awaiting him.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed lead" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Harry Potter and the Chamber of Secrets
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A house-elf warns Harry against returning to Hogwarts, but he decides to
+                        ignore it. When students and creatures at the school begin to get petrified, Harry finds himself
+                        surrounded in mystery.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed lead" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Harry Potter and the Prisoner of Azkaban
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Harry, Ron and Hermoine return to Hogwarts just as they learn about
+                        Sirius Black and his plans to kill Harry. However, when Harry runs into him, he learns that the
+                        truth is far from reality.</div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 mb-4">
+            <button type="button" class="btn btn-outline-info m-2">Philosopher's Stone</button>
+            <button type="button" class="btn btn-outline-success m-2">Chamber of Secrets</button>
+            <button type="button" class="btn btn-outline-warning m-2">Prisoner of Azkaban</button>
+            <button type="button" class="btn btn-outline-danger m-2">Goblet of Fire</button>
+            <button type="button" class="btn btn-outline-info m-2">Order of the Pheonix</button>
+            <button type="button" class="btn btn-outline-secondary m-2">Half-Blood Prince</button>
+            <button type="button" class="btn btn-outline-success m-2">Deathly Hallows</button>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+            <div class="col">
+                <div class="card">
+                    <img src="hp1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Philosopher's Stone</h5>
+                        <p class="card-text">Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Chamber of Secrets</h5>
+                        <p class="card-text">Spending the summer with the Dursleys, Harry Potter meets Dobby, a house-elf who warns him not to return to Hogwarts or danger will strike. When Harry refuses, Dobby sabotages an important dinner for the Dursleys, who lock up Harry to prevent his departure. Harry's friend Ron Weasley and his brothers Fred and George rescue him in their father's flying car.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Prisoner of Azkaban</h5>
+                        <p class="card-text">Harry, Ron and Hermoine return to Hogwarts just as they learn about Sirius Black and his plans to kill Harry. However, when Harry runs into him, he learns that the truth is far from reality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Goblet of Fire</h5>
+                        <p class="card-text">In his fourth year at Hogwarts, Harry must reluctantly compete in an ancient wizard tournament after someone mysteriously selects his name.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Order of the Pheonix</h5>
+                        <p class="card-text">Harry potter while staying at the Dursleys', Harry Potter and Dudley are attacked by Dementors. Harry repels them using a Patronus spell. The Ministry of Magic detects the underaged Harry using magic and expels him from Hogwarts, though he is later exonerated.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Half-Blood Prince</h5>
+                        <p class="card-text">Dumbledore and Harry learn about Voldemort's past, Harry stumbles upon an textbook belonging to a person calling himself the Half-Blood Prince.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp7_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Deathly Hallows-1</h5>
+                        <p class="card-text">Harry, Ron and Hermione go into hiding as Voldemort takes over the Ministry of Magic. Later, the trio tries to decipher the clues left to them by Dumbledore to find and destroy Voldemort's Horcruxes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="hp7_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Deathly Hallows-2</h5>
+                        <p class="card-text">Harry, Ron and Hermione set out on a quest to eliminate the remaining horcruxes. On the other hand, the students and teachers must unite to defend Hogwarts against Lord Voldemort and his minions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
